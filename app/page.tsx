@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
 import { Mail, Github, Linkedin, Twitter } from "lucide-react"
 import { Navbar } from "@/components/ui/navbar"
 
@@ -18,7 +18,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 text-[#665c00] drop-shadow">곽현아 <span className="block text-[#5B6EE1]">선생님</span></h1>
           <h2 className="text-2xl mb-6 text-[#8d7b00] font-semibold">중학교 교사, AI 교육 혁신가</h2>
           <p className="text-lg md:text-xl mb-8 max-w-xl text-[#665c00]">
-            "학생과 함께 성장하는 AI 시대의 교육자"
+            &quot;학생과 함께 성장하는 AI 시대의 교육자&quot;
           </p>
           <div className="flex gap-4">
             <Button className="bg-[#FFD700] text-[#665c00] font-bold shadow-lg hover:bg-[#FFFACD]" size="lg" asChild>
